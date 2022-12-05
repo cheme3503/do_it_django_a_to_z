@@ -26,10 +26,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'p%_vi5u!ts!nfye(@-=g(#dkp7lx5&)9=7lv1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = int(os.environ.get('DEBUG', 1))
 
-if os.environ.get('DJANGO_ALLOWED_HOSTS'):
-    ALLOWED_HOSTS = os.environ.get('DJANGO_ALLOWED_HOSTS').split(' ')
-else:
-    ALLOWED_HOSTS = []
+# if os.environ.get('DJANGO_ALLOWED_HOSTS'):
+#     ALLOWED_HOSTS = os.environ.get('DJANGO_ALLOWED_HOSTS').split(' ')
+# else:
+ALLOWED_HOSTS = ['3.64.49.251',]
 
 
 # Application definition
