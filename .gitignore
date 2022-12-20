@@ -110,8 +110,7 @@ ENV/
 env.bak/
 venv.bak/
 .idea/
-.env.prod
-.env.prod.db
+
 
 # Spyder project settings
 .spyderproject
@@ -132,3 +131,5 @@ dmypy.json
 .pyre/
 migrations/
 _media/
+.env.prod
+.env.prod.db
