@@ -9,6 +9,7 @@ ENV PYTHONUNBUFFERED 1
 
 RUN apk update
 RUN apk add postgresql-dev gcc python3-dev musl-dev zlib-dev jpeg-dev #--(5.2)
+RUN apk add libffi-dev
 
 COPY . /usr/src/app/
 # install dependencies
